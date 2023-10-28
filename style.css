@@ -1,10 +1,12 @@
 h1 {
-    font-family: "Garamond", serif;
+    font-family: "Lucinda Handwriting", "Garamond", serif;
     font-size: 50px;
     font-weight: bold;
     background-color: #fa8072;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin-top: 0px;
+    padding: 8px;
 }
 
 .recipe {
@@ -32,3 +34,22 @@ img {
     height: auto;
     width: 675px;
 }
+
+body {
+    background-color: rgba(176, 69, 160, 0.171);
+    border: dotted red;
+    padding: 10px;
+}
+
+li {
+    display: block;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border: rgb(219, 44, 103) double 5px;
+}
+
+/*Figure out how to change html colouring to a different colour */
